@@ -18,11 +18,9 @@ public class ArrLists {
         newlist.add("R");
         newlist.add("D");
 
-        
-
+        //To merge two arraylist
         newlist.addAll(studentName);
         System.out.println(newlist);
-
     }
 }
 
@@ -36,4 +34,4 @@ public class ArrLists {
 
  To declare arraylist:
  ArrayList<Integer> arrli = new ArrayList<Integer>();
- */
+*/
