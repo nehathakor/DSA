@@ -68,6 +68,14 @@ public class ArrLists {
         while(it.hasNext()){
             System.out.println(it.next());
         }
+
+        //for different objects
+        ArrayList<Object> list = new ArrayList<>();
+        list.add("Hello World");
+        list.add(5);
+        list.add(56.5);
+
+        System.out.println(list);
     }
 }
 
