@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/reverse-integer/description/
 
-//time-complexity : O(log10n) || space-complexity : O(1) sice all are variables and no data structure
+//time-complexity : O(log10n) || space-complexity : O(1) since all are variables and no data structure
 
 package DSA.Maths;
 
