@@ -28,4 +28,18 @@ public class R2 {
         F(1,5);
     }
      */
+
+     /* Using Backtracking:
+        static void F(int i, int n){
+        if(i < 1){
+            return;
+        }
+        F(i-1,n);
+        System.out.println(i);
+        }
+
+        public static void main(String[] args) {
+            F(5,5);
+        }
+     */
 }
