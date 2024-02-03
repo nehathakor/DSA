@@ -1,14 +1,14 @@
-//Print 1 to n 
+//Print n to 1
 
 package DSA.Recursion;
 
-public class R2 {
+public class R3 {
     static void F(int i, int n){
         if(i > n){
             return;
         }
-        System.out.println(i);
         F(i+1,n);
+        System.out.println(i);
     }
 
     public static void main(String[] args) {
@@ -16,16 +16,16 @@ public class R2 {
     }
 
     /*
-     static int F(int i, int n){
-        if(i > n){
-            return n;
+     static void F(int i, int n){
+        if(i < n){
+            return;
         }
         System.out.println(i);
-        return F(i+1,n);
+        F(i-1,n);
     }
 
     public static void main(String[] args) {
-        F(1,5);
+        F(5,1);
     }
      */
 }
