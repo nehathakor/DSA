@@ -1,3 +1,5 @@
+//time-complexity: O(n^2)
+
 package DSA.Recursion;
 
 public class Fibonacci {
