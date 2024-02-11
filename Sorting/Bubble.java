@@ -1,3 +1,6 @@
+//time-complexity:O(n^2) || space-complexity: O(1) 
+//It is advised to do swap in the fist function only instead of making swap function
+
 package DSA.Sorting;
 
 import java.util.Arrays;
