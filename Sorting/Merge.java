@@ -27,14 +27,15 @@ public class Merge {
                 if(L[i] <= R[j]){
                     arr[k] = L[i];
                     i++;
-                } else {
+                } 
+                if(L[i] <= R[j]){
                     arr[k] = R[j];
                     j++;
                 }
                 k++;
             }
 
-            while( i < n1){
+            while(i < n1){
                 arr[k] = L[i];
                 i++;
                 k++;
