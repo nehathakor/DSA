@@ -1,3 +1,5 @@
+//time-complexity:O(N)
+
 package DSA.ArrayByS;
 
 public class SecondLargest {
