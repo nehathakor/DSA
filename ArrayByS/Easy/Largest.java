@@ -1,6 +1,6 @@
 //time-complexity:O(N)
 
-package DSA.ArrayByS;
+package DSA.ArrayByS.Easy;
 
 public class Largest {
     static int largestElement(int arr[]){

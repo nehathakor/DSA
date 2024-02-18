@@ -1,6 +1,6 @@
 //time-complexity:O(N) || space-complexity:O(1)
 
-package DSA.ArrayByS;
+package DSA.ArrayByS.Easy;
 
 public class RemoveDuplicate {
     static int duplicate(int arr[]){

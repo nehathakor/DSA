@@ -1,6 +1,6 @@
 //time-complexity:O(N)
 
-package DSA.ArrayByS;
+package DSA.ArrayByS.Easy;
 
 public class SecondSmallest {
     static int second(int arr[]){
