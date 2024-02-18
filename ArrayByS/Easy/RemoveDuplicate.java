@@ -18,5 +18,4 @@ public class RemoveDuplicate {
         int arr[] = {1,2,3,3};
         System.out.println(duplicate(arr));
     }
-
 }
