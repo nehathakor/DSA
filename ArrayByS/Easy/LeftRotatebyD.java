@@ -1,3 +1,5 @@
+//space-complexity:O(n+d) and space-complexity:O(n) since  we using temp so to reduce it we use reverse
+
 package DSA.ArrayByS.Easy;
 
 import java.util.Arrays;
