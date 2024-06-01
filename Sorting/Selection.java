@@ -1,5 +1,5 @@
 //time-complexity:O(n^2) || space-complexity: O(1) 
-//It is advised to do swap in the fist function only instead of making swap function
+//It is advised to do swap in the first function only instead of making swap function
 
 package DSA.Sorting;
 
@@ -25,7 +25,7 @@ public class Selection {
     }
 
     public static void main(String[] args) {
-        int arr[] = {2,0,4,5,7};
+        int arr[] = {7,0,3,5,6};
         SelectionSort(arr,arr.length-1);
         System.out.println(Arrays.toString(arr));
     }
