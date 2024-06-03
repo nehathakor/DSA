@@ -1,0 +1,100 @@
+Arrays:
+[Collection of similar types of elements.]
+
+Advantages:
+1. Code Optimization: It makes the code optimized, we can retrieve or sort the data efficiently.
+2. Random access: We can get any data located at an index position.
+
+Disadvantage:
+1. Size Limit: We can store only the fixed size of elements in the array. It doesn't grow its size at runtime. 
+To solve this problem, collection framework is used in Java which grows automatically.
+
+Syntax:
+
+datatype[] variable_name = new datatype[size];   
+int[] my_array = new int[7];
+
+int[] myarray = {3,4,5,67,78}; //directly
+
+int[] arr; //declaration of array and arr is getting defined in the stack; this things happen at compile time
+arr = new int[8]; //initialisation; this things happen at run time(Dyanmic memory allocation)
+
+Dynamic memory allocation:
+Allocation of memory at the runtime.
+
+int[] --> datatype
+arr --> reference variable 
+new int[5] --> creating the object in heap memory
+
+Continous memory allocation will happen or not depends on JVM in arrays.
+Reasons they might not be continous:
+1. Arrays objects are in heap.
+2. Heap objects are not continous.
+3. Dynamic memory allocation.
+
+New is used to create an object.
+
+Note:
+Primitive are stored in !stack! and strings, arrays, hashmaps etc are stored in !heap!.
+
+Arrays[2D]:
+
+1 2 3     //rows: 1 2 3
+4 5 6     //column: 1 4 7
+7 8 9     // 3 rows-column
+
+Syntax:
+
+datatype[][] variable_name = new datatype[rows][column];
+int[][] arr = new int[3][3];    //Adding number of rows is mandatory then columns.
+
+int[][] arr = {      //directly
+    {1, 2, 3},
+    {4, 5, 6},
+    {7, 8, 9}
+};
+
+Consider 2D arrays as an arrays of arrays i.e, {1,2,3} will be at 0th index, {4,5,6} at 1st index. arr[1] will give us {4,5,6} and for arr[1][0] will give us 4.
+
+<------------------------------------------ -------------------------------------->
+ArrayList:
+[Arraylist is the part of collection framework. It is similar to vector in C++. The size of array is not modified but we can do for ArrayList. ArrayList class uses a dynamic array for storing the elements. ]
+
+Syntax:
+ArrayList<Wrapper class> list_name = new ArrayList<>(Size of the list);
+We can keep the size of list empty also i.e, ();
+
+The ArrayList class has many useful methods. 
+add(value_or_item):
+To add elements to the ArrayList.
+
+get(index_number):
+To access an element in the ArrayList.
+
+set(index_number, value_or_item):
+To modify an element.
+
+remove(index_number):
+To remove an element.
+
+clear():
+To remove all the elements in the ArrayList.
+
+size():
+To find out how many elements an ArrayList.
+
+contains():
+To find if the element is present or not.
+
+Lets say ArrayList has 3 elements in list [2, 3, 4] but when we try to add more elements the first list will get copied into another list and then we can add more elements inside it. The old list will be deleted.
+The another list will be like [2, 3, 4, 7, 5].
+
+
+
+
+
+
+
+
+
+
