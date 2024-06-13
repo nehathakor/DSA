@@ -20,8 +20,8 @@ public class LeftRotatebyD1 {
     }
 
     public static void main(String[] args) {
-        int arr[] = {1,2,3,4,5,6,7};
-        Rotate(arr,5);
+        int arr[] = {1,2,3,4,5,7,8,9};
+        Rotate(arr,14);
         System.out.println(Arrays.toString(arr));
     }
 }

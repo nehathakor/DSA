@@ -17,10 +17,10 @@ public class Quick {
         int i = low;
         int j = high;
         while(i < j){
-            while(arr[i] <= pivot && i <= high){
+            while(arr[i] <= pivot && i < high){
                 i++;
             }
-            while(arr[j] > pivot && j >= low){
+            while(arr[j] > pivot && j > low){
                 j--;
             }
             if(i < j){
@@ -38,7 +38,7 @@ public class Quick {
     }
 
     public static void main(String[] args) {
-        int arr[] = {4,3,2,1,7,9,5,6};
+        int arr[] = {4,3,2,9,5,6};
         quickSort(arr, 0, arr.length-1);
         System.out.println(Arrays.toString(arr));
     }
