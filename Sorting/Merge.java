@@ -25,8 +25,7 @@ public class Merge {
                 if(L[i] <= R[j]){
                     arr[k] = L[i];
                     i++;
-                } 
-                if(L[i] <= R[j]){
+                } else{
                     arr[k] = R[j];
                     j++;
                 }
@@ -47,7 +46,7 @@ public class Merge {
 
      static void mergeSort(int arr[], int l, int r)
         {
-            if (l < r){
+            if (l < r){    //keep it < only not <=
             int m = l+(r-l)/2;
             mergeSort(arr,l,m);
             mergeSort(arr, m+1, r);

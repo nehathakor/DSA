@@ -18,6 +18,6 @@ public class Divisiors1 {
     }
     
     public static void main(String[] args) {
-        sumOfAllDivisors(36);
+        sumOfAllDivisors(6);
     }
 }
